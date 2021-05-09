@@ -2738,7 +2738,7 @@ spec:
       containers:
       - command:
         - argocd-server
-	- --insecure
+        - --insecure
         - --staticassets
         - /shared/app
         image: quay.io/argoproj/argocd:v2.0.0
